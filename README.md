@@ -34,7 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Before installing osTicket, ensure your server meets the necessary requirements. You'll need a web server (such as Apache or Nginx), PHP, a database server (MySQL or MariaDB), and PHP extensions like GD, IMAP, and XML. Make sure your server's software versions are compatible with osTicket's requirements.
 </p>
 <br />
 
@@ -42,7 +42,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Choose a web server (e.g., Apache or Nginx) and configure it to serve osTicket. Create a virtual host or site configuration, pointing to the osTicket installation directory. Ensure that the web server has the necessary permissions to access and modify files in the osTicket directory.
 </p>
 <br />
 
@@ -50,6 +50,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Adjust PHP settings according to osTicket's requirements. Set the timezone, increase memory_limit, and enable necessary extensions like GD, IMAP, and XML. Verify that your PHP version is compatible with osTicket. You can typically find recommended PHP settings in the osTicket documentation.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Create a database and a database user for osTicket. Use MySQL or MariaDB, and make sure the database user has the required privileges. During the osTicket installation process, you will need to provide these database details. Keep the database credentials secure, as they will be used for establishing a connection between osTicket and the database.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Download the latest version of osTicket from the official website. Extract the files to your web server directory. Open a web browser and navigate to the osTicket installation wizard by accessing the installation URL. Follow the on-screen instructions, providing the necessary information such as database details, admin credentials, and system settings. After completing the installation, remove the setup directory for security reasons.
 </p>
 <br />
